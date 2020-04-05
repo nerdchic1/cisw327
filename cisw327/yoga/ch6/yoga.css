@@ -1,0 +1,59 @@
+body { background-color: #3f2860;
+	   font-family: Verdana, Arial, sans-serif; 
+}
+header { background-color: #9bc1c2; 
+         background-image: url(lilyheader.jpg);
+		 background-position: right;
+		 background-repeat: no-repeat;
+         height: 150px; 
+}
+h1 { padding-top: 50px;
+     padding-left: 2em; 
+}
+nav { font-weight: bold;
+      padding: 1em;	  
+	  background-color: #F5F5F5; 
+	  float: left;
+	  width: 160px;
+}
+main { padding-left: 2em;
+       padding-right: 2em;
+	   margin-left: 170px;
+	   padding-top: 1em;
+}
+nav a { text-decoration: none;
+        display: block;
+		text-align: center;
+		font-weight: bold;
+		border: 3px outset #CCCCCC;
+		padding: 1em;
+		margin-bottom: 1em;
+}
+nav a:link { color: #3F2860; }
+nav a:visited { color: #497777; }
+nav a:hover { color: #A26100; 
+              border: 3px inset #333333; }
+nav ul { list-style-type: none; 
+         padding-left: 0; }
+.studio { font-style: italic;
+}
+footer { background-color: #9bc1c2; 
+         font-size: .60em;
+		 font-style: italic;
+		 text-align: center; 
+		 padding: 0.5em; 
+		 margin-top: 2em; 
+}
+#wrapper { width: 80%;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #f5f5f5;
+		   min-width: 1200px;
+		   max-width: 1480px;
+}
+* { box-sizing: border-box; }
+.floatleft { float: left; 
+             margin-right: 4em; }
+.clear { clear: both; 
+         padding-top: 1em; }
+header, nav, main, footer { display: block; }
